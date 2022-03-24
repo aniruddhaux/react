@@ -1,0 +1,586 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #5a5a5a !important;
+    font-size: 18px !important;
+    font-family: 'Lato', sans-serif !important;
+}
+img {
+	width: 100%;
+}
+a {
+    text-decoration: none !important;
+}
+.container {
+    max-width: 1300px !important;
+}
+.banner_title {
+    font-size: 74px;
+}
+.banner_title span{
+    color: #f1c83a;
+}
+.boeder_btn {
+    margin-top: 40px;
+    color: #2c36e9;
+    border: 1px solid #2c36e9 !important;
+    padding: 8px 16px;
+    background: #fff;
+    border-radius: 6px;
+}
+.boeder_btn:hover {
+    color: #fff;
+    background: #2c36e9;
+}
+
+/* Insdustry Car */
+.insdustry_car {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.insdustry_car img {
+    width: 230px;
+}
+
+.insdustry_car img.left_car_two {
+    -webkit-animation-duration: 5999ms;
+	-moz-animation-duration: 5999ms;
+	animation-duration: 5999ms;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	animation-name: left_car_two;
+	-webkit-animation-name: left_car_two;
+	-moz-animation-name: left_car_two;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	bottom: 0;
+	left: 0%;
+	position: fixed;
+    width:230px;
+    z-index: 1;
+   
+}
+@-keyframes left_car_two {
+	from, 5%{ margin-left:-40%;}
+	to { margin-left:100%; }
+}
+@-moz-keyframes left_car_two {
+	from, 5%{ margin-left:-40%;}
+	to { margin-left:100%;}
+}
+@-webkit-keyframes left_car_two {
+	from, 5%{ margin-left:-40%;}
+	to { margin-left:100%;}
+}
+
+
+.insdustry_car img.left_car_one {
+    -webkit-animation-duration: 9265ms;
+	-moz-animation-duration: 9265ms;
+	animation-duration: 9265ms;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	animation-name: left_car_one;
+	-webkit-animation-name: left_car_one;
+	-moz-animation-name: left_car_one;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	bottom: 0;
+	left: 30%;
+	position: fixed;
+    width:230px;
+    z-index: 9;		
+}
+@-keyframes left_car_one {
+	from{ margin-left:-40%; }
+	to { margin-left:70%; }
+}
+@-moz-keyframes left_car_one {
+	from{ margin-left:-40%; }
+	to { margin-left:70%; }
+}
+@-webkit-keyframes left_car_one {
+	from{ margin-left:-40%; }
+	to { margin-left:70%; }
+}
+
+.insdustry_car .right_car_one {
+	-moz-animation-duration: 7799ms;
+	-webkit-animation-duration: 7799ms;
+	animation-duration: 7799ms;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-name: right_car_one;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	bottom: 0;
+	display: block;
+	height: 100px;
+	position: fixed;
+	right: 40%;
+	width: 320px;
+	z-index: 1;
+}
+@-keyframes right_car_one {
+	from { margin-right:-60%; }
+	to { margin-right:100%; }
+}
+
+@-moz-keyframes right_car_one {
+	from { margin-right:-60%; }
+	to { margin-right:100%; }
+}
+@-Webkit-keyframes right_car_one {
+	from { margin-right:-60%; }
+	to { margin-right:100%; }
+}
+
+
+
+.insdustry_car .right_car_two {
+	-moz-animation-duration: 7799ms;
+	-webkit-animation-duration: 7799ms;
+	animation-duration: 7799ms;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-name: right_car_two;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	bottom: 0;
+	display: block;
+	position: fixed;
+	right: 40%;
+	width: 160px;
+	z-index: 2;
+}
+@-keyframes right_car_two {
+	from, 30% { margin-right:-60%; }
+	to { margin-right:100%; }
+}
+
+@-moz-keyframes right_car_two {
+	from, 30% { margin-right:-60%; }
+	to { margin-right:100%; }
+}
+@-Webkit-keyframes right_car_two {
+	from, 30% { margin-right:-60%; }
+	to { margin-right:100%; }
+}
+
+
+
+.insdustry_car img.worker_one {
+    width: 60px;
+    position: absolute;
+    left: 20%;
+    z-index: 0;
+    -webkit-animation-duration: 80s;
+    -moz-animation-duration: 80s;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-name: worker_one;
+    -webkit-animation-name: worker_one;
+    -moz-animation-name: worker_one;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    bottom: 20px;
+}
+
+@-keyframes worker_one {
+	from { margin-left:-40%; }
+	to { margin-left:0; }
+}
+@-moz-keyframes worker_one {
+	from { margin-left:-40%; }
+	to { margin-left:100%; }
+}
+@-webkit-keyframes worker_one {
+	from { margin-left:-40%; }
+	to { margin-left:100%; }
+}
+
+.insdustry_car img.worker_two {
+    width: 160px;
+    right: 530px;
+    position: fixed;
+    bottom: 14px;
+}
+/* Insdustry Car */
+
+
+/* Cloud Sec */
+.cloud_sec {
+    position: absolute;
+    bottom: 330px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.cloud_sec img {
+    width: 80px;
+   
+}
+.cloud_sec .cloud_icon_one {
+	-moz-animation-duration: 80s;
+	-webkit-animation-direction: 80s;
+	animation-duration: 80s;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-name: cloud_icon_one;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	left: 110px;
+	position: absolute;
+}
+
+@keyframes cloud_icon_one  {
+	from, 0%{ margin-left:-550px; }
+	to { margin-left:100%; }
+}
+
+@-moz-keyframes cloud_icon_one  {
+	from, 0%{ margin-left:-550px; }
+	to { margin-left:100%; }
+}
+@-webkit-keyframes cloud_icon_one  {
+	from, 0%{ margin-left:-550px; }
+	to { margin-left:100%; }
+}
+
+
+
+.cloud_sec img.cloud_icon_two {
+    bottom: 40px;
+    position: absolute;
+    left: 160px;
+    -moz-animation-duration: 80s;
+	-webkit-animation-direction: 80s;
+	animation-duration: 80s;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-name: cloud_icon_two;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	z-index: 0;
+}
+@-keyframes cloud_icon_two   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-moz-keyframes cloud_icon_two   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-webkit-keyframes cloud_icon_two   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+
+
+
+.cloud_sec img.cloud_icon_three {
+    bottom: 0px;
+    position: absolute;
+    left: 0;
+    -moz-animation-duration: 80s;
+	-webkit-animation-direction: 80s;
+	animation-duration: 80s;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-name: cloud_icon_three;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	z-index: 0;
+}
+@-keyframes cloud_icon_three   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-moz-keyframes cloud_icon_three   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-webkit-keyframes cloud_icon_three   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+
+
+.cloud_sec img.cloud_icon_four {
+    bottom: 0px;
+    position: absolute;
+    left: 300px;
+    -moz-animation-duration: 80s;
+	-webkit-animation-direction: 80s;
+	animation-duration: 80s;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-name: cloud_icon_three;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	z-index: 0;
+}
+@-keyframes cloud_icon_four   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-moz-keyframes cloud_icon_four   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-webkit-keyframes cloud_icon_four   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+
+
+.cloud_sec img.cloud_icon_five {
+    bottom: 0px;
+    position: absolute;
+    left: 300px;
+    -moz-animation-duration: 80s;
+	-webkit-animation-direction: 80s;
+	animation-duration: 80s;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-name: cloud_icon_five;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	z-index: 0;
+}
+@-keyframes cloud_icon_five   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-moz-keyframes cloud_icon_five   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+@-webkit-keyframes cloud_icon_five   {
+	from, 40%{ margin-left:-650px; }
+	to { margin-left:100%; }
+}
+/* Cloud Sec */
+
+
+/* Institute Login Page */
+
+
+.insdustry_login_page {
+    height: 100vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    align-items: center;
+}
+.insdustry_login_page .container {
+    display: flex;
+    height: 100vh;
+    align-items: start;
+    position: relative;
+    overflow: hidden;
+    max-width: 100% !important;
+}
+.insdustry_login_page .insdustry_login_container {
+    width: 450px;
+    position: relative;
+    background: rgb(181 181 181 / 30%);
+    padding: 10px;
+    box-shadow: 0px 4px 40px 0px rgb(0 0 0 / 25%);
+    -moz-box-shadow: 0px 4px 40px 0px rgb(0 0 0 / 25%);
+    box-shadow: 0px 4px 40px 0px rgb(0 0 0 / 25%);
+    margin: 60px auto 30px;
+    border: 1px solid #FFFCFC;
+    border-radius: 15px;
+    z-index: 9;
+}
+.insdustry_login_page .insdustry_login_container .login_title {
+    text-align: center;
+    font-weight: 900;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 40px;
+    line-height: 38px;
+}
+.insdustry_login_page .insdustry_login_container .login_title span {
+    width: 40px;
+    display: block;
+    margin: 0 auto 8px;
+}
+.insdustry_login_container .login_wrapp {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+.insdustry_login_page .login_wrapp .login_form label {
+    font-size: 18px;
+    color: #3D3D3D;
+    margin-bottom: 6px;
+}
+.insdustry_login_page .login_wrapp .login_form label span {
+    color: #f00;
+}
+.insdustry_login_page .login_wrapp .login_form input.form-control, .insdustry_login_page .login_wrapp .login_form .form-group select.form-control {
+    height: 48px;
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #f1ebeb;
+    box-shadow: 0px 8px 21px 0px #A6A6AC40;
+    -moz-box-shadow: 0px 8px 21px 0px #A6A6AC40;
+    -webkit-box-shadow: 0px 8px 21px 0px #A6A6AC40;
+    border-radius: 10px;
+}
+.insdustry_login_page .login_wrapp .login_form .form-group select.form-control {
+    height: 54px;
+    position: relative;
+    background-image: url(../images/down_arrow.svg);
+    background-position: 96% 50%;
+    background-repeat: no-repeat;
+}
+.insdustry_login_page .login_wrapp .login_form input.form-control:focus {
+    box-shadow: none;
+}
+.insdustry_login_page .login_wrapp .login_form .form-group {
+    margin-bottom: 20px;
+}
+.login_wrapp .logo_image img {
+    display: block;
+}
+.insdustry_login_page .login_wrapp .login_form .login_btn {
+    background: #1a2de3;
+    color: #fff;
+    border: none;
+    padding: 6px 60px;
+    border-radius: 42px;
+    font-size: 20px;
+    display: block;
+    margin: 30px auto 0;
+    border: 4px solid rgb(255 255 255 / 76%);
+    line-height: 30px;
+    box-shadow: 0px 0px 30px 0px #ad874ea1;
+    -moz-box-shadow: 0px 0px 30px 0px #ad874ea1;
+    -webkit-box-shadow: 0px 0px 30px 0px #ad874ea1;
+}
+.insdustry_login_page .login_wrapp .login_form .login_btn:hover {
+    background: #2939d8;
+}
+.insdustry_login_page .login_wrapp .login_form .registration {
+    color: #9C9696;
+    margin-top: 12px !important;
+}
+.insdustry_login_page .login_wrapp .login_form .registration a {
+    font-weight: 600;
+    color: #1A2DDD;
+}
+.insdustry_login_page .login_eklavya {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 850px;
+}
+
+.insdustry_login_page .login_eklavya img {
+    width: 820px;
+}
+/* Insdustry Login Page */
+
+
+
+/***========== Start responsive css ==========***/
+
+
+/* 1366px */
+@media screen  and (max-width : 1366px) {
+
+   
+    .insdustry_car img.left_car_one {
+        left: 0%;
+    }
+    @-keyframes left_car_one {
+        from{ margin-left:-40%; }
+        to { margin-left:100%; }
+    }
+    @-moz-keyframes left_car_one {
+        from{ margin-left:-40%; }
+        to { margin-left:100%; }
+    }
+    @-webkit-keyframes left_car_one {
+        from{ margin-left:-40%; }
+        to { margin-left:100%; }
+    }
+    
+
+  
+}
+
+
+
+/* 1024px */
+@media screen  and (max-width : 1024px) {
+
+    /* Insdustry Login Page */
+    .insdustry_car .right_car_one {
+        right: 0;
+    }
+    /* Insdustry Login Page */
+}
+
+/* 991px */
+@media screen  and (max-width : 991px) {
+
+    /* Insdustry Login Page */
+    .insdustry_car .right_car_two {
+        right: 0;
+    }
+    /* Insdustry Login Page */
+
+}
+
+/* 767px */
+@media screen  and (max-width : 767px) {
+
+    /* Insdustry Login Page */
+    .insdustry_car img.left_car_two {
+        width: 160px;
+    }
+    .insdustry_car img.left_car_one {
+        width: 160px;
+    }
+    .insdustry_car .right_car_one {
+        width: 240px;
+        height: auto;
+    }
+    .insdustry_car .right_car_two {
+        width: 120px;
+    }
+    /* Insdustry Login Page */
+
+
+}
